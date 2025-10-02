@@ -13,7 +13,7 @@ License:        MIT
 # LICENSE.dependencies contains a full license breakdown
 
 URL:            https://github.com/lienching/pci-ids.rs
-Source:         %{url}/archive/refs/tags/v{version}.tar.gz
+Source:         %{url}/archive/refs/tags/v%{version}.tar.gz
 
 BuildRequires:  cargo-rpm-macros >= 26
 
