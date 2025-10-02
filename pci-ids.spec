@@ -9,13 +9,11 @@ Version:        0.2.5
 Release:        %autorelease
 Summary:        Rust wrappers for the PCI ID Repository
 
-SourceLicense:  MIT
-# FIXME: paste output of %%cargo_license_summary here
-License:        # FIXME
+License:        MIT
 # LICENSE.dependencies contains a full license breakdown
 
 URL:            https://github.com/lienching/pci-ids.rs
-Source:         # FIXME
+Source:         %{url}/archive/refs/tags/v{version}.tar.gz
 
 BuildRequires:  cargo-rpm-macros >= 26
 
