@@ -4,7 +4,7 @@
 # prevent library files from being installed
 %global cargo_install_lib 0
 
-Name:           pci-ids
+Name:           rust-pci-ids
 Version:        0.2.5
 Release:        %autorelease
 Summary:        Rust wrappers for the PCI ID Repository
