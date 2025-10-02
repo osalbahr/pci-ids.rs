@@ -23,7 +23,7 @@ Rust wrappers for the PCI ID Repository.}
 %description %{_description}
 
 %prep
-%autosetup -n pci-ids-%{version} -p1
+%autosetup -n pci-ids.rs-%{version} -p1
 %cargo_prep
 
 %generate_buildrequires
